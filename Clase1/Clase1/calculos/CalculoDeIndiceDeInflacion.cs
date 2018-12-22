@@ -8,6 +8,9 @@ namespace Clase1.calculos
 {
     class CalculoDeIndiceDeInflacion
     {
+        private double calculoInterno() {
+            return 0;
+        }
         public double calcularTrimestre(double[] octNovDic)
         {
             double valorBase = 100;
