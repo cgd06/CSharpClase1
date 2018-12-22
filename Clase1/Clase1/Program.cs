@@ -10,9 +10,11 @@ namespace Clase1
     {
         static void Main(string[] args)
         {
-            new ControlDeFlujo().ejemploDeIf();
-            new ControlDeFlujo().ejemploForEach();
-            new ControlDeFlujo().ejemploPasajeDeParametros(new double[] { 2.1, 1.2, 3.5 });
+            double valorCompuesto = new calculos.CalculoDeIndiceDeInflacion().calcularTrimestre(new double[] {
+                2.1,
+                2.3,
+                1.4
+            });
         }
     }
 }
